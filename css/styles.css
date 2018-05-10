@@ -61,6 +61,7 @@ img {
 .home-banner {
   margin-right: 10px;
 }
+
 .banner {
   width: 100%;
   object-fit: contain;
@@ -70,8 +71,8 @@ img {
 #featured-work {
   width: 100%;
   font-family: 'PT Sans', sans-serif;
-
 }
+
 .fw-cards {
   width: 100%;
   display: flex;
@@ -92,27 +93,30 @@ img {
     transition: 0.3s;
     width: 100%;
 }
+
 /* On mouse-over, add a deeper shadow */
 .fw-card:hover {
     box-shadow: 0 8px 16px 0 rgba(0,0,0,0.2);
 }
+
 .fw-card img {
   max-height: 225px;
   object-fit: cover;
 }
+
 /* Reset H4 to no padding and no margin */
 .fw-desc h4 {
     padding: 0;
     margin: 0;
     border-bottom: solid grey 1px;
-    padding-bottom: .25em;
+    padding-bottom: 0.25em;
 }
+
 /* Add some padding inside the card container */
 .fw-desc {
     padding: 2px 16px 10px;
     font-family: 'PT Sans', sans-serif;
 }
-
 
 
 /*
@@ -126,11 +130,13 @@ img {
   .fw-card {
     width: calc((100% - 20px)/2);
   }
+
   .logo {
     width: 100px;
     height: 100px;
     margin: 12px;
   }
+
   .title {
       margin-top: 36px;
   }
